@@ -8,6 +8,16 @@ val kotlin_version: String by project
 plugins {
     application
     kotlin("jvm") version "1.4.32"
+    id("com.github.johnrengelman.shadow") version "6.1.0"
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath("com.github.jengelman.gradle.plugins:shadow:6.1.0")
+    }
 }
 
 group = "com.utsman"

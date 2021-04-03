@@ -1,1 +1,1 @@
-web:    java -jar build/libs/nama-1.0.0.jar
+web:    java -jar build/libs/nama-1.0.0-all.jar
